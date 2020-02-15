@@ -8,6 +8,8 @@ PODS:
   - EXFileSystem (8.0.0):
     - UMCore
     - UMFileSystemInterface
+  - EXKeepAwake (8.0.0):
+    - UMCore
   - EXPermissions (8.0.0):
     - UMCore
     - UMPermissionsInterface
@@ -252,6 +254,7 @@ DEPENDENCIES:
   - EXAppLoaderProvider (from `../node_modules/expo-app-loader-provider/ios`)
   - EXConstants (from `../node_modules/expo-constants/ios`)
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
+  - EXKeepAwake (from `../node_modules/expo-keep-awake/ios`)
   - EXPermissions (from `../node_modules/expo-permissions/ios`)
   - EXSensors (from `../node_modules/expo-sensors/ios`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
@@ -310,6 +313,9 @@ EXTERNAL SOURCES:
   EXFileSystem:
     :path: !ruby/object:Pathname
     path: "../node_modules/expo-file-system/ios"
+  EXKeepAwake:
+    :path: !ruby/object:Pathname
+    path: "../node_modules/expo-keep-awake/ios"
   EXPermissions:
     :path: !ruby/object:Pathname
     path: "../node_modules/expo-permissions/ios"
@@ -407,6 +413,7 @@ SPEC CHECKSUMS:
   EXAppLoaderProvider: f6aeb45ee81887811b34eee5c5f235a6111d58d0
   EXConstants: e287774d0d32634ddaef614f2e488c550c6deefc
   EXFileSystem: fa8ecad925ad984681910a2273930f7255a0a9b5
+  EXKeepAwake: 5f96bd91d4d3be5ef12c59ef7efafeac0f50ad2f
   EXPermissions: 3e58e0fbb2e9539ad1ef5617ff02c2356447421e
   EXSensors: 3c761d7cbbde7b9403d599704319c1239c99cd3e
   FBLazyVector: aaeaf388755e4f29cd74acbc9e3b8da6d807c37f
